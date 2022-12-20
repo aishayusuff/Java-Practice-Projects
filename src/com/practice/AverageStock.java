@@ -8,13 +8,13 @@ public class AverageStock {
 		StockPrice companyA = new StockPrice();
 		DecimalFormat df = new DecimalFormat("0.00 ");
 
-		companyA.buy(36.6, 2000);
-		companyA.buy(39.7, 4000);
+		companyA.buy(45.6, 2000);
+		companyA.buy(36.7, 5000);
+		companyA.sell(51.4, 2500);
+		System.out.println("Shares left: " + companyA.getShares());
+		System.out.println("Selling prices for current shares: " + companyA.getPrice());
+		System.out.println("Average price for buying and selling shares: " + df.format(companyA.getAveragePrice()));
 
-		System.out.println(companyA.getShares());
-		System.out.println(companyA.getPrice());
-		System.out.println(df.format(companyA.getAveragePrice()));
-		companyA.sell(42.9, 1000);
 
 	}
 
