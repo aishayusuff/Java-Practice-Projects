@@ -15,3 +15,9 @@ inputed by the user. Since the program does not know how many 'percentage propor
 an ArrayList to store the inputs. The 'percentage porportions' inputed are used to allocate the 'total spending money'.
 
 ### NOTE: The program will accept 'percentage proportions' until the total sum of inputs exceeds 100%. Afterwards, it will recalculate the last input, to ensure the sum is exactly 100. 
+
+## 3. Average Stock 
+This simple java project that updates the average price as well as the share capital of stocks. It uses a Stock class and an AverageStock runner class. Three variables ( shares, price, and capital), and 'Buying' and 'selling' methods are created in the Stock class. The former method updates the capital variable using increments, while the latter method updates the capital using decrements. Both methods accept parameters 'price' and 'shares. The price is unique but the shares increases/decreases the total number of share available per program run.
+
+## 4. StairCases
+This program builds a 'staircase' (or a triangle) using hash (*) symbol. It accepts two input values from the user: one for the number of stairs (stairsNumber) and the other for the width of the stairs - i.e the number of * per stairs - (stairsWidth). I have solved this program using two methods. The first method uses nested FOR loop, while the second solution uses the repeat Sring method.
