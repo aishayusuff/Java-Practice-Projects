@@ -28,7 +28,7 @@ public class StairCases {
 		for (int i = 0; i < stairsNumber; i++) {
 			System.out.println(stairsBlock + "*".repeat(i * stairsWidth));
 		}
-
+		scanner.close();
 	}
 
 }
